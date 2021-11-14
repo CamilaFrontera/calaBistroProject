@@ -1,0 +1,34 @@
+@import '../scss/base/imports';
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    
+}
+
+@font-face {
+    font-family: "sora-enfasis";
+    src: url("/fonts/Sora/static/Sora-SemiBold.woff") format("woff");
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "sora-general";
+    src: url("/fonts/Sora/static/Sora-Regular.woff") format("woff");
+    font-display: swap;
+  }
+
+  
+body{
+    background-color: white;
+    font-family:  "sora-general";
+}
+
+ul{
+    list-style-type: none;
+}
+
+
+ 
